@@ -4,7 +4,7 @@
     id="com.adobe.plugins.GAPlugin"
     version="2.4.0">
 
-    <name>GAPlugin</name>
+    <name>GAPluginWithAdFeatures</name>
   <author>Bob Easterday</author>
 
   <description>
