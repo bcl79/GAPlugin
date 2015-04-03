@@ -12,6 +12,7 @@
     NSInteger dispatchPeriod = [[command.arguments objectAtIndex:1] intValue];
 
     [GAI sharedInstance].trackUncaughtExceptions = YES;
+    [GAI sharedInstance].allowIDFACollection = YES;
     // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
     [GAI sharedInstance].dispatchInterval = dispatchPeriod;
     // Optional: set debug to YES for extra debugging information.
